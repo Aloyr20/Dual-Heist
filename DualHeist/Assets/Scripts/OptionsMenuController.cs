@@ -18,15 +18,15 @@ public class OptionsMenuController : MonoBehaviour
         {
             PreviousScene = "MainMenu";
         }
-        if (PreviousScene == "SampleScene")
-        {
-            PauseScript.pauseMenuUI.SetActive(true);
-            PauseScript.OptionsMenu.SetActive(false);
-        }
         if (PreviousScene == "MainMenu")
         {
             MainScript.MainMenuUI.SetActive(true);
             MainScript.OptionsMenu.SetActive(false);
+        }
+        else
+        {
+            PauseScript.pauseMenuUI.SetActive(true);
+            PauseScript.OptionsMenu.SetActive(false);
         }
     }
 }
