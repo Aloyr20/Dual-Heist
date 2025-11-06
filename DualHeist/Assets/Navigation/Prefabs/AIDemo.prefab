@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 3982911133994882067}
   - component: {fileID: 7875034093861188266}
   - component: {fileID: 6398347718482755167}
+  - component: {fileID: 7436363859187770924}
   m_Layer: 0
   m_Name: AIDemo
   m_TagString: Untagged
@@ -151,3 +152,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::SimpleNavMesh
   target: {fileID: 0}
   m_Agent: {fileID: 7875034093861188266}
+--- !u!114 &7436363859187770924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7361461906297204509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d7a6dd7fc96b7441ab513355f1750e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DetectFall
+  m_VoidHeight: -5
