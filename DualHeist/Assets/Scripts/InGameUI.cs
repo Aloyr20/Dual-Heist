@@ -6,9 +6,7 @@ using TMPro;
 
 public class InGameUI : MonoBehaviour
 {
-    public GameObject PauseButton;
-
-    public bool SuddenDeathTextIsPlayed = false;
+    //public GameObject PauseButton;
 
     // Start is called before the first frame update
     void Start()

@@ -11,12 +11,10 @@ public class PauseMenuController : MonoBehaviour
 {
     //public static bool GameIsPaused = false;
 
-    public GameObject PauseButton;
-
-    public GameObject pauseMenuUI;
+    [SerializeField] public GameObject pauseMenuUI;
     public GameObject InGameUI;
 
-    public GameObject OptionsMenu;
+    [SerializeField] public GameObject OptionsMenu;
 
     // Update is called once per frame
     public void Update()
@@ -52,12 +50,11 @@ public class PauseMenuController : MonoBehaviour
 
     public void Options()
     {
-        Scene CurrentScene = SceneManager.GetActiveScene();
-        string SceneName = CurrentScene.name;
-        OptionsMenuController.PreviousScene = SceneName;
+        //Scene CurrentScene = SceneManager.GetActiveScene();
+        //string SceneName = CurrentScene.name;
+        OptionsMenuController.PreviousScene = "SampleScene";
         OptionsMenu.SetActive(true);
         pauseMenuUI.SetActive(false);
-        //Pause();
     }
 
     public void MainMenu()
