@@ -883,7 +883,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &3449689676002116320
 RectTransform:
   m_ObjectHideFlags: 0
@@ -920,6 +920,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 425daaea3ea0d244cba4b4fda631d980, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  PreviousScene: SampleScene
   PauseScript: {fileID: 1605194880654423399, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
   MainScript: {fileID: 7552506454840006546, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
 --- !u!1 &7926015011438361190

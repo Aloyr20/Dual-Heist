@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class OptionsMenuController : MonoBehaviour
 {
-    public static string PreviousScene;
+    public string PreviousScene;
 
     public PauseMenuController PauseScript;
 

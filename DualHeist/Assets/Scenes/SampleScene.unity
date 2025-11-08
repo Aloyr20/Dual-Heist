@@ -125,7 +125,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 2080744289}
+    m_TransformParent: {fileID: 2063935122}
     m_Modifications:
     - target: {fileID: 3449689676002116320, guid: 7fbcef7e51fb21d409ea12a80b97ad45, type: 3}
       propertyPath: m_Pivot.x
@@ -177,15 +177,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3449689676002116320, guid: 7fbcef7e51fb21d409ea12a80b97ad45, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3449689676002116320, guid: 7fbcef7e51fb21d409ea12a80b97ad45, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3449689676002116320, guid: 7fbcef7e51fb21d409ea12a80b97ad45, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 3449689676002116320, guid: 7fbcef7e51fb21d409ea12a80b97ad45, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -223,6 +223,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8570382490095847155, guid: 7fbcef7e51fb21d409ea12a80b97ad45, type: 3}
+      propertyPath: PauseScript
+      value: 
+      objectReference: {fileID: 2063935123}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -630,6 +634,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1985044836 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7703098674181583034, guid: 7fbcef7e51fb21d409ea12a80b97ad45, type: 3}
+  m_PrefabInstance: {fileID: 67348119}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2063935121
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -642,6 +651,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1605194880654423399, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
+      propertyPath: OptionsMenu
+      value: 
+      objectReference: {fileID: 1985044836}
     - target: {fileID: 1605194880654423399, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
       propertyPath: pauseMenuUI
       value: 
@@ -761,7 +774,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4184293326301522567, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 3609613150400649319, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 67348120}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
 --- !u!224 &2063935122 stripped
@@ -769,6 +785,17 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3609613150400649319, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
   m_PrefabInstance: {fileID: 2063935121}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2063935123 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 1605194880654423399, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
+  m_PrefabInstance: {fileID: 2063935121}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 72bf5bf4eeb09044d88ce583fc5f737e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PauseMenuController
 --- !u!1 &2080744285
 GameObject:
   m_ObjectHideFlags: 0
@@ -864,7 +891,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2063935122}
-  - {fileID: 67348120}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
