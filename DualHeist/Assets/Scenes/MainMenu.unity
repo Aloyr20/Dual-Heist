@@ -590,6 +590,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1000118045}
     m_Modifications:
+    - target: {fileID: 4270080593431124888, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
+      propertyPath: m_text
+      value: Dual Heist
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270080593431124888, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
+      propertyPath: m_fontSize
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270080593431124888, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 96
+      objectReference: {fileID: 0}
+    - target: {fileID: 4270080593431124888, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 5675774658716756180, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -669,6 +685,22 @@ PrefabInstance:
     - target: {fileID: 5675774658716756180, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757562434430676962, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 484.13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757562434430676962, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 101.2575
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757562434430676962, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.0000076293945
+      objectReference: {fileID: 0}
+    - target: {fileID: 6757562434430676962, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 218
       objectReference: {fileID: 0}
     - target: {fileID: 7552506454840006546, guid: 5da24625c4815854c94ce56bac72e500, type: 3}
       propertyPath: OptionsMenu
