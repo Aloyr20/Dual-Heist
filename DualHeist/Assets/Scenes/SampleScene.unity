@@ -690,10 +690,22 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8343506315456105308, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8428997407543138003, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8776945681344594466, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
       propertyPath: PauseScript
       value: 
       objectReference: {fileID: 1605194880654423399, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
+    - target: {fileID: 8968278740828137373, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects:
     - {fileID: 4184293326301522567, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
