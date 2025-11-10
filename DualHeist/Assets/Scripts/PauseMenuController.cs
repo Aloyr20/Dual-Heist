@@ -17,6 +17,7 @@ public class PauseMenuController : MonoBehaviour
     public GameObject WinUI;
     public GameObject LoseUI;
     public GameObject EndingUI;
+    [SerializeField] Animator SceneTransitionAnim;
 
 
     // Update is called once per frame
@@ -104,8 +105,10 @@ public class PauseMenuController : MonoBehaviour
 
     IEnumerator EndingUIToMainMenuTimer()
     {
-        yield return new WaitForSeconds(4f);
-        EndingUI.SetActive(false);
+        yield return new WaitForSeconds(2f);
+        SceneTransitionAnim.SetTrigger("End");
+        yield return new WaitForSeconds(1);
         MainMenu();
+        SceneTransitionAnim.SetTrigger("Start");
     }
 }
