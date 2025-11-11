@@ -23,7 +23,7 @@ public class MainMenuController : MonoBehaviour
 
     public void Options()
     {
-        OptionsMenuController.PreviousScene = "MainMenu";
+        OptionsMenu.GetComponent<OptionsMenuController>().PreviousScene = "MainMenu";
         OptionsMenu.SetActive(true);
         MainMenuUI.SetActive(false);
     }
