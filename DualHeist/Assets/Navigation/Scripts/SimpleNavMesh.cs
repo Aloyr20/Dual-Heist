@@ -3,33 +3,37 @@ using UnityEngine.AI;
 
 public class SimpleNavMesh : MonoBehaviour
 {
-    public GameObject target;
+    public GameObject[] targets;
 
     [SerializeField] private NavMeshAgent m_Agent;
 
     private void Start()
     {
-
         // TO-DO: Debug messages, should be removed before building
-        if (target == null)
+        if (targets == null)
         {
             Debug.LogWarning("Nav Mesh Target is not set in inspector.");
-            target = GameObject.FindGameObjectWithTag("Target");
+            targets = GameObject.FindGameObjectsWithTag("Target");
         }
         if (m_Agent == null)
         {
             Debug.LogWarning("Agent is not set in inspector.");
             m_Agent = GetComponent<NavMeshAgent>();
         }
+
+        m_Agent.SetDestination(targets[0].transform.position);
     }
 
     private void Update()
     {
-        SendToTarget(); // TO-DO: Debug line. Should be removed when SendToTarget() is rigged properly
+        if (m_Agent.remainingDistance < 0.05f)
+            Invoke(nameof(SendToNextTarget), 1f);
     }
 
-    public void SendToTarget()
+    int currentTarget = 0;
+    public void SendToNextTarget()
     {
-        m_Agent.SetDestination(target.transform.position);
+        currentTarget++;
+        m_Agent.SetDestination(targets[currentTarget].transform.position);
     }
 }
