@@ -7,6 +7,11 @@ public class SimpleNavMesh : MonoBehaviour
 
     [SerializeField] private NavMeshAgent m_Agent;
 
+    /**
+     * The script currently sends the agent to the next target one second
+     * after reaching the main target. This can be easily tweaked if need
+     * be.
+     */
     private void Start()
     {
         // TO-DO: Debug messages, should be removed before building
