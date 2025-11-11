@@ -105,10 +105,12 @@ public class PauseMenuController : MonoBehaviour
 
     IEnumerator EndingUIToMainMenuTimer()
     {
-        yield return new WaitForSeconds(2f);
-        SceneTransitionAnim.SetTrigger("End");
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3f);
+        EndingUI.SetActive(false);
+        SceneTransitionAnim.gameObject.SetActive(true);
+        SceneTransitionAnim.Play("SceneTransitionLoadAnimation", 0, 0f);
+        yield return new WaitForSeconds(5f);
         MainMenu();
-        SceneTransitionAnim.SetTrigger("Start");
+        SceneTransitionAnim.gameObject.SetActive(false);
     }
 }
