@@ -171,6 +171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: AIDemo
       objectReference: {fileID: 0}
+    - target: {fileID: 7361461906297204509, guid: 23d0f849560db8e489f655fc97e72422, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7436363859187770924, guid: 23d0f849560db8e489f655fc97e72422, type: 3}
       propertyPath: m_Agent
       value: 
@@ -279,6 +283,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1d1db1ac49349bf4bb54c96e78953efd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::SimpleNavMesh
+--- !u!33 &145250207 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 8778080862591895785, guid: 23d0f849560db8e489f655fc97e72422, type: 3}
+  m_PrefabInstance: {fileID: 145250201}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &174123949
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -432,6 +441,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -445,9 +458,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 740670274126063921, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
+      propertyPath: m_Player
+      value: 
+      objectReference: {fileID: 145250202}
+    - target: {fileID: 740670274126063921, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
+      propertyPath: m_PlayerMesh
+      value: 
+      objectReference: {fileID: 145250207}
     - target: {fileID: 2193148791099435054, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
       propertyPath: m_Name
       value: SecurityCamera
+      objectReference: {fileID: 0}
+    - target: {fileID: 2193148791099435054, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6356596384132188845, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
       propertyPath: m_LocalPosition.x
@@ -683,6 +708,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -743,6 +772,10 @@ PrefabInstance:
     - target: {fileID: 2140473214533407331, guid: 917032dbf0d37e8449d30453b1d97424, type: 3}
       propertyPath: m_Name
       value: NavMesh
+      objectReference: {fileID: 0}
+    - target: {fileID: 2140473214533407331, guid: 917032dbf0d37e8449d30453b1d97424, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1281,6 +1314,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1427,6 +1464,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1483,6 +1524,10 @@ PrefabInstance:
     - target: {fileID: 4023184700664914662, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
       propertyPath: m_Name
       value: DebugTarget (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1653,6 +1698,10 @@ PrefabInstance:
     - target: {fileID: 4023184700664914662, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
       propertyPath: m_Name
       value: DebugTarget (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

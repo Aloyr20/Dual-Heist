@@ -244,6 +244,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -264,7 +268,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 306387274473064904, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Size.x
-      value: 5.123885
+      value: 3.8463469
       objectReference: {fileID: 0}
     - target: {fileID: 306387274473064904, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Size.y
@@ -276,7 +280,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 306387274473064904, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Center.x
-      value: 0.06521368
+      value: 0.70398283
       objectReference: {fileID: 0}
     - target: {fileID: 306387274473064904, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Center.y
@@ -284,7 +288,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 306387274473064904, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Center.z
-      value: 0.42151904
+      value: 0.42151928
       objectReference: {fileID: 0}
     - target: {fileID: 6270400020451525678, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Name
@@ -350,7 +354,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 306387274473064904, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Size.x
-      value: 5.123885
+      value: 3.713828
       objectReference: {fileID: 0}
     - target: {fileID: 306387274473064904, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Size.y
@@ -362,7 +366,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 306387274473064904, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Center.x
-      value: 0.06521368
+      value: 0.7702422
       objectReference: {fileID: 0}
     - target: {fileID: 306387274473064904, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Center.y
@@ -370,7 +374,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 306387274473064904, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Center.z
-      value: 0.42151904
+      value: 0.42151928
       objectReference: {fileID: 0}
     - target: {fileID: 6270400020451525678, guid: f05b170f342ed3b4891744c694e1e80b, type: 3}
       propertyPath: m_Name
@@ -643,6 +647,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -710,6 +718,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -767,6 +779,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -873,6 +889,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1185,6 +1205,11 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 3609613150400649319, guid: fea291fbe79f3e6469990f4486a94dc4, type: 3}
   m_PrefabInstance: {fileID: 1101758665}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1140731137 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7361461906297204509, guid: 23d0f849560db8e489f655fc97e72422, type: 3}
+  m_PrefabInstance: {fileID: 1830145591}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1199748892 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4023184700664914662, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
@@ -1387,6 +1412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1444,6 +1473,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1612,6 +1645,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1777,6 +1814,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1978,7 +2019,7 @@ MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6398347718482755167, guid: 23d0f849560db8e489f655fc97e72422, type: 3}
   m_PrefabInstance: {fileID: 1830145591}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
+  m_GameObject: {fileID: 1140731137}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 1d1db1ac49349bf4bb54c96e78953efd, type: 3}
@@ -1992,6 +2033,11 @@ NavMeshAgent:
 --- !u!54 &1830145595 stripped
 Rigidbody:
   m_CorrespondingSourceObject: {fileID: 2483400646866661952, guid: 23d0f849560db8e489f655fc97e72422, type: 3}
+  m_PrefabInstance: {fileID: 1830145591}
+  m_PrefabAsset: {fileID: 0}
+--- !u!33 &1830145599 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 8778080862591895785, guid: 23d0f849560db8e489f655fc97e72422, type: 3}
   m_PrefabInstance: {fileID: 1830145591}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1842689643 stripped
@@ -2012,6 +2058,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 228566617}
     m_Modifications:
+    - target: {fileID: 740670274126063921, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
+      propertyPath: m_Player
+      value: 
+      objectReference: {fileID: 1140731137}
+    - target: {fileID: 740670274126063921, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
+      propertyPath: m_PlayerMesh
+      value: 
+      objectReference: {fileID: 1830145599}
     - target: {fileID: 2193148791099435054, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
       propertyPath: m_Name
       value: SecurityCamera (1)
@@ -2118,6 +2172,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

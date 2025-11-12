@@ -336,6 +336,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 0}
+--- !u!33 &78162076 stripped
+MeshFilter:
+  m_CorrespondingSourceObject: {fileID: 8778080862591895785, guid: 23d0f849560db8e489f655fc97e72422, type: 3}
+  m_PrefabInstance: {fileID: 1451341838}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -481,6 +486,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 740670274126063921, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
+      propertyPath: m_Player
+      value: 
+      objectReference: {fileID: 78162067}
+    - target: {fileID: 740670274126063921, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
+      propertyPath: m_PlayerMesh
+      value: 
+      objectReference: {fileID: 78162076}
     - target: {fileID: 2193148791099435054, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
       propertyPath: m_Name
       value: SecurityCamera (1)
@@ -585,6 +598,10 @@ PrefabInstance:
     - target: {fileID: 4023184700664914662, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
       propertyPath: m_Name
       value: DebugTarget
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -818,6 +835,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 740670274126063921, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
+      propertyPath: m_Player
+      value: 
+      objectReference: {fileID: 78162067}
+    - target: {fileID: 740670274126063921, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
+      propertyPath: m_PlayerMesh
+      value: 
+      objectReference: {fileID: 78162076}
     - target: {fileID: 2193148791099435054, guid: e1af7661aea1b7145aa5d33a3ccc4ec7, type: 3}
       propertyPath: m_Name
       value: SecurityCamera
@@ -922,6 +947,10 @@ PrefabInstance:
     - target: {fileID: 4023184700664914662, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
       propertyPath: m_Name
       value: DebugTarget (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1481,6 +1510,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1769,6 +1802,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1830,6 +1867,10 @@ PrefabInstance:
     - target: {fileID: 4023184700664914662, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
       propertyPath: m_Name
       value: DebugTarget (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1893,6 +1934,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1955,6 +2000,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: DebugTarget (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2016,6 +2065,10 @@ PrefabInstance:
     - target: {fileID: 4023184700664914662, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
       propertyPath: m_Name
       value: DebugTarget (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2105,6 +2158,10 @@ PrefabInstance:
     - target: {fileID: 4023184700664914662, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
       propertyPath: m_Name
       value: DebugTarget (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8379100202065816384, guid: 95eb6666c123ffe47a50d68a38aa0a7b, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

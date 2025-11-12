@@ -23,7 +23,7 @@ public class OptionsMenuController : MonoBehaviour
             MainScript.MainMenuUI.SetActive(true);
             MainScript.OptionsMenu.SetActive(false);
         }
-        if (PreviousScene == "SampleScene")
+        if (PreviousScene == "Level 1")
         {
             PauseScript.pauseMenuUI.SetActive(true);
             PauseScript.OptionsMenu.SetActive(false);
