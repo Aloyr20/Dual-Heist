@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -26,19 +27,38 @@ public class SimpleNavMesh : MonoBehaviour
             m_Agent = GetComponent<NavMeshAgent>();
         }
 
-        m_Agent.SetDestination(targets[0].transform.position);
+        StartCoroutine(StartMoving()); // TO-DO: Should only run on player input
     }
 
     private void Update()
     {
-        if (m_Agent.remainingDistance < 0.05f)
-            Invoke(nameof(SendToNextTarget), 1f);
+    /**
+     *  if (input) 
+     *  {
+     *      StartCoroutine(StartMoving());
+     *  }
+     */
     }
 
-    int currentTarget = 0;
-    public void SendToNextTarget()
+    public IEnumerator StartMoving()
     {
-        currentTarget++;
-        m_Agent.SetDestination(targets[currentTarget].transform.position);
+        int currentTarget = 0;
+
+        SendToTarget(0);
+        while (currentTarget < targets.Length)
+        {
+            if (m_Agent.remainingDistance < 0.01f)
+            {
+                currentTarget++;
+                SendToTarget(currentTarget);
+            }
+
+            yield return null;
+        }
+    }
+
+    public void SendToTarget(int index)
+    {
+        m_Agent.SetDestination(targets[index].transform.position);
     }
 }
