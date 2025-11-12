@@ -44,13 +44,12 @@ public class SimpleNavMesh : MonoBehaviour
     {
         int currentTarget = 0;
 
-        SendToTarget(0);
         while (currentTarget < targets.Length)
         {
             if (m_Agent.remainingDistance < 0.01f)
             {
-                currentTarget++;
                 SendToTarget(currentTarget);
+                currentTarget++;
             }
 
             yield return null;
