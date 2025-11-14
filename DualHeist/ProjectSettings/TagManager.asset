@@ -7,11 +7,18 @@ TagManager:
   - Target
   - PauseMenu
   - Feller
+  - Gun
+  - Exit
+  - Bullet
+  - Gen1
+  - Gen2
+  - NoBarrier
+  - Box
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Dragable
   - Water
   - UI
   - Ignore NavMesh

@@ -8,6 +8,7 @@ public class DetectFall : MonoBehaviour
     [SerializeField] private NavMeshAgent m_Agent;
     [SerializeField] private Rigidbody m_Rigidbody;
     [SerializeField] private SimpleNavMesh m_Controller;
+    [SerializeField] public GameObject m_lose;
 
     private void Start()
     {
@@ -36,6 +37,7 @@ public class DetectFall : MonoBehaviour
             m_Controller.enabled = false;
             m_Agent.enabled = false;
             m_Rigidbody.useGravity = true;
+            m_lose.SetActive(true);
         }
     }
 }

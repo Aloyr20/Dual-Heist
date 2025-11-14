@@ -1,6 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
-#if Unity_Editor
+#if UNITY_EDITOR
 using UnityEditor;
 #endif
 using UnityEngine;
@@ -10,14 +10,41 @@ public class MainMenuController : MonoBehaviour
 {
     public GameObject MainMenuUI;
     public GameObject OptionsMenu;
+    [SerializeField] private Animator SceneTransitionAnim;
+    [SerializeField] private string firstLevelName = "Level 1";
 
     public void Start()
     {
-        Time.timeScale = 0f;
+        Time.timeScale = 1f; // Changed from 0f to 1f to ensure animations play properly
     }
+
     public void PlayGame()
     {
-        SceneManager.LoadScene("Level 1");
+        StartCoroutine(SceneTransition());
+    }
+
+    private IEnumerator SceneTransition()
+    {
+        // Play the transition animation
+        if (SceneTransitionAnim != null)
+        {
+            SceneTransitionAnim.gameObject.SetActive(true);
+            SceneTransitionAnim.Play("SceneTransitionLoadAnimation", 0, 0f);
+
+            // Get the length of the animation
+            float animationLength = SceneTransitionAnim.GetCurrentAnimatorStateInfo(0).length;
+
+            // Wait for the animation to complete
+            yield return new WaitForSeconds(animationLength);
+        }
+        else
+        {
+            // Fallback: wait a short moment if no animator is set
+            yield return new WaitForSeconds(1f);
+        }
+
+        // Load the scene
+        SceneManager.LoadScene(firstLevelName);
         Time.timeScale = 1f;
     }
 
@@ -27,13 +54,13 @@ public class MainMenuController : MonoBehaviour
         OptionsMenu.SetActive(true);
         MainMenuUI.SetActive(false);
     }
-    
+
     public void QuitGame()
     {
         Debug.Log("Quit");
 
-#if Unity_Editor
-        UnityEditor.EditorApplication.isPlaying = false;
+#if UNITY_EDITOR
+        EditorApplication.isPlaying = false;
 #else
         Application.Quit();
 #endif
@@ -42,6 +69,6 @@ public class MainMenuController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

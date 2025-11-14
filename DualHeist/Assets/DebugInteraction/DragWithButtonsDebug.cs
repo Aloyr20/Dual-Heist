@@ -28,8 +28,6 @@ public class DragWithButtonsDebug : MonoBehaviour
 
         bool buttonPressed = dragButton.action.ReadValue<float>() > 0.5f;
 
-        Debug.Log(buttonPressed);
-
         if (buttonPressed && draggedObject == null)
             TryDrag();
         else if (!buttonPressed && draggedObject != null)

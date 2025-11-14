@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class SecurityCamera : MonoBehaviour
 {
@@ -7,6 +8,8 @@ public class SecurityCamera : MonoBehaviour
 
     [SerializeField] private MeshFilter m_PlayerMesh;
     [SerializeField] private float m_HitAngle;
+    [SerializeField] GameObject lose;
+    [SerializeField] NavMeshAgent agent;
 
     private void Start()
     {
@@ -39,6 +42,9 @@ public class SecurityCamera : MonoBehaviour
             if (Mathf.Abs(Vector3.Angle(transform.TransformDirection(Vector3.forward), hitInfo.point - transform.position)) < m_HitAngle)
             {
                 Debug.Log("Player is being hit!~"); // TO-DO: game over function
+                lose.gameObject.SetActive(true);
+                agent.isStopped = true;
+
 
                 if (m_EnableDebug) 
                     Debug.DrawRay(transform.position, target - transform.position, Color.red);
@@ -50,4 +56,21 @@ public class SecurityCamera : MonoBehaviour
         }
        
     }
+
+    public void OnCollisionEnter(Collision other)
+    {
+        Debug.Log(other);
+        if(other.gameObject.CompareTag("Bullet") && gameObject.CompareTag("NoBarrier"))
+        {
+            Destroy(other.gameObject);
+            gameObject.SetActive(false);
+        }
+        if (other.gameObject.CompareTag("Bullet"))
+        {
+            Destroy(other.gameObject);
+        }
+        Debug.Log("hi");
+    }
+
+
 }

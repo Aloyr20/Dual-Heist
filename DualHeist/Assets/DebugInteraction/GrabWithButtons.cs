@@ -16,8 +16,6 @@ public class GrabWithButtonsDebug : MonoBehaviour
 
         bool buttonPressed = grabButton.action.ReadValue<float>() > 0.5f;
 
-        Debug.Log(buttonPressed);
-
         if (buttonPressed && heldObject == null)
         {
             TryGrab();
